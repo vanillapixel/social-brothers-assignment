@@ -1,0 +1,11 @@
+export const GET_POSTS = "GET_POSTS";
+export const POSTS_ERROR = "POSTS_ERROR";
+
+export const GET_MORE_POSTS = "GET_MORE_POSTS";
+export const MORE_POSTS_ERROR = "MORE_POSTS_ERROR";
+
+export const CREATE_POST = "CREATE_POST";
+export const CREATE_POST_ERROR = "CREATE_POST_ERROR";
+
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const CATEGORIES_ERROR = "CATEGORIES_ERROR";
