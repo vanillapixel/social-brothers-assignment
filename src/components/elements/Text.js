@@ -21,7 +21,7 @@ const Text = styled("span", {
 			pageTitle: {
 				position: "absolute",
 				margin: "auto",
-				bottom: "10%",
+				bottom: "20%",
 				color: "$white100",
 				left: "50%",
 				transform: "translate(-50%, -50%)",
