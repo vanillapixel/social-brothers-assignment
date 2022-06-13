@@ -6,7 +6,7 @@
 
 ## Assignment expected result
 
-![alt text]((https://bitbucket.org/socialbrothers/sollicitatie-case-front-end/raw/c55790630ada25caf1f5bfb7aa32a3b96ce56e85/example.png)
+![alt text](https://bitbucket.org/socialbrothers/sollicitatie-case-front-end/raw/c55790630ada25caf1f5bfb7aa32a3b96ce56e85/example.png)
 
 ## Installation
 
