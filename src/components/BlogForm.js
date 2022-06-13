@@ -79,16 +79,20 @@ const BlogForm = () => {
 		return formData;
 	};
 
+	const validateField = (key) => {
+		if (postForm[key] === "" || postForm[key] === null) {
+			setFormError((prevState) => ({
+				...prevState,
+				[key]: "*Dit veld is verplicht",
+			}));
+			return;
+		}
+		setFormError({ ...formError, [key]: "" });
+	};
+
 	const validateForm = () => {
 		Object.keys(postForm).forEach((key) => {
-			if (postForm[key] === "" || postForm[key] === null) {
-				setFormError((prevState) => ({
-					...prevState,
-					[key]: "*Dit veld is verplicht",
-				}));
-				return;
-			}
-			setFormError({ ...formError, [key]: "" });
+			validateField(key);
 		});
 		return Object.keys(postForm).every((key) => postForm[key] !== "");
 	};
